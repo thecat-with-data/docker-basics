@@ -78,3 +78,6 @@ So if someone gives you a **Docker container**, you don't need to:
 
 *If you can remember one thing:*
 **Docker** helps software behave predictably, no matter where it runs.
+
+## **Get Docker**
+To start using **Docker**, you can download it from the official website: [https://www.docker.com/get-started](https://www.docker.com/get-started)
