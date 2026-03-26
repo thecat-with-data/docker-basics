@@ -47,6 +47,14 @@ To help with the database, the development stack also includes phpMyAdmin, which
 can be accessed at [http://db.localhost](http://db.localhost) (most browsers will 
 resolve `*.localhost` correctly, so no hosts file changes should be required).
 
+## Student focus points
+
+- Separating frontend and backend services in Compose for better development workflows.
+- Using live-reload tools (`Vite`, `nodemon`) in containerized development.
+- Understanding how a modern full-stack app is built, served, and persisted with Docker.
+- How the stack handles different ports 80/3000/8000 and service discovery via Compose.
+
+
 ### Tearing it down
 
 When you're done, simply remove the containers by running the following command:
