@@ -1,0 +1,15 @@
+services:
+  rust-app:
+    build: .
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    environment:
+      - RUST_LOG=info
+    networks:
+        - rustnetwork
+
+networks:
+  rustnetwork:
+    driver: bridge
+    
